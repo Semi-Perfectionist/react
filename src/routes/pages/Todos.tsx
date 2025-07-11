@@ -1,3 +1,9 @@
+import TodoList from '@/components/todos/TodoList'
+
 export default function Todos() {
-  return <div>Todos</div>
+  return (
+    <>
+      <TodoList />
+    </>
+  )
 }
